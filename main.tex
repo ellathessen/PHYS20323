@@ -1,0 +1,110 @@
+\documentclass[11.5pt]{article}
+\usepackage{epsfig}
+\usepackage{times}
+\usepackage{fancyhdr}
+\usepackage{pslatex}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[hidelinks]{hyperref}%renewcommand{\topfraction}{1.0}
+\renewcommand{\topfraction}{1.0}
+\renewcommand{\bottomfraction}{1.0}
+\renewcommand{\textfraction}{0.0}
+\setlength {\textwidth}{6.6in}
+\hoffset=-1.0in
+\oddsidemargin=1.00in
+\marginparsep=0.0in
+\marginparwidth=0.0in                                                                               
+\setlength {\textheight}{9.0in}
+\voffset=-1.00in
+\topmargin=1.0in
+\headheight=0.0in
+\headsep=0.00in
+\footskip=0.50in                                         
+\setcounter{page}{1}
+\begin{document}
+\def\pos{\medskip\quad}
+\def\subpos{\smallskip \qquad}
+\newfont{\nice}{cmr12 scaled 1250}
+\newfont{\name}{cmr12 scaled 1080}
+\newfont{\swell}{cmbx12 scaled 800}
+
+\title{PHYS 20323/60323: Fall 2024}
+\author{Ella Thessen}
+\date{Friday December 6th}
+
+\begin{center}
+    {\Large
+    PHYS 20323/60323: Fall 2024 - LaTeX by: Ella June Thessen:D}\vspace{.25cm}
+
+\begin{enumerate}
+    \item 
+\text An electron is found to be in the spin state (in the $z$-basis) $\chi = A
+\begin{pmatrix}
+3i \\
+4
+\end{pmatrix}
+$
+\begin{enumerate}
+    \item[(a)] (5 points) Determine the possible values of \( A \) such that the state is normalized.\vspace{1cm}
+   \item[(b)] (5 points) Find the expectation values of the operators \color{red}\( S_x \),\color{purple} \( S_y \), \color{black}\( S_z \), and \( \vec{S}^2 \).\vspace{1cm}
+\end{enumerate}
+The matrix representations in the \( z \)-basis for the components of electron spin operators are given by:
+\[\color{red}S_x = \frac{\hbar}{2} 
+\begin{pmatrix}
+0 & 1 \\ 
+1 & 0
+\end{pmatrix};\ \quad
+\color{purple}S_y = \frac{\hbar}{2} 
+\begin{pmatrix}
+0 & -i \\ 
+i & 0
+\end{pmatrix}; \quad
+\color{orange}S_z = \frac{\hbar}{2} 
+\begin{pmatrix}
+1 & 0 \\ 
+0 & -1
+\end{pmatrix}\vspace{0.25cm}
+\] 
+\textbf{}{2. The average electrostatic field in the earth’s atmosphere in fair weather is approximately given by:} 
+\[
+\vec{E} = E_0 
+\left(
+A e^{-\alpha z} + B e^{-\beta z}
+\right)
+\hat{z},
+                                                                               (1\]
+where \( A, B, \alpha, \beta \) are positive constants and \( z \) is the height above the (locally flat) earth surface.\vspace{.10cm}
+\begin{enumerate}
+    \item[(a)] (5 points) Find the average charge density in the atmosphere as a function of height.\vspace{0.25cm}
+    \item[(b)] (5 points) Find the electric potential as a function of height above the earth.\vspace{0.25cm}  
+\end{enumerate}
+
+\textbf{3. The following questions refer to stars in the table below.} 
+
+\vspace{.10cm}
+Note: there may be many answers
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|c|c|c|c|c|}
+\hline
+\textbf{Name} & \textbf{Mass} & \textbf{Luminosity} & \textbf{Lifetime } & \textbf{Temperature} & \textbf{Radius} \\ \hline
+$\beta$ Cyg.   & 1.3($M_\odot$)   & 3.5($L_\odot$)   &                &       &    \\ \hline
+$\alpha$ Cen.  & 1.0($M_\odot$)   &      &                 &       & 1($R_\odot$)   \\ \hline
+$\eta$ Car.    & 60.0($M_\odot$)  & $10^6$($L_\odot$) & $8.0 \times 10^5$(years) &       &    \\ \hline
+$\epsilon$ Eri.& 6.0($M_\odot$)   & $10^3$($L_\odot$) &                 & 20,000(K) &   \\ \hline
+$\delta$ Scu.  & 2.0($M_\odot$)   &      & $5.0 \times 10^8$(years) &       & 2($R_\odot$)   \\ \hline
+$\gamma$ Del.  & 0.7($M_\odot$)   &      & $4.5 \times 10^{10}$(years) & 5000(K)   &    \\ \hline
+\end{tabular}
+
+\end{table}
+
+
+\begin{enumerate}
+    \item[(a)] (4 points) Which of these stars will produce a planetary nebula.\vspace{0.5cm}  
+    \item[(b)] (4 points) Elements heavier than \textit{Carbon} will be produced in which stars.\vspace{1cm}  
+\end{enumerate}
+ 
+
+
+                                                                    \end{document}
